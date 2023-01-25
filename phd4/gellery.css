@@ -1,0 +1,11 @@
+x
+.img p{
+    
+    width: 50%;
+}
+.row{
+    display: flex;
+}
+.justify{
+    justify-content: center;
+}
