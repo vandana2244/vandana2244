@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    width: 1260px;
+    margin: 0 auto;
+  
+}
+
+.head{
+    background-color: #303030;
+    margin: 0 0 10px 0;
+
+}
+.sec-one{
+    background-image: url(./webphotos/caver\ photo.png);
+    background-position: center;
+    background-size: cover;
+}
+.row{
+    display: flex;
+    align-items: center;
+
+}
+.jsc{
+    justify-content: space-between;
+}
+.manu ul li{
+    list-style: none;
+}
+.manu ul li a{
+    margin: 50px 30px;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    transition: all 3s;
+    
+}
+.manu ul li a:hover{
+    border-radius: 50px;
+    background-color: #e7631c;
+    /* border: 3px solid; */
+}
+.icon i{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.col-50{
+    width: 50%;
+}
+.home h1{
+    margin: 0 0 10px 0;
+    font-size: 90px;
+    color:white;
+}
+.home p{
+    margin: 0 0 25px 0;
+    font-size: 25px;
+    color: white;
+}
+.home input{
+    font-size: 20px;
+    padding: 13px 50px;
+    color: aliceblue;
+    background-color: #e7631c;
+    border: none;
+}
+.add{
+    margin-top: 100px  ;
+    padding: 100px 0;
+}
+
+.logo img{
+    width: 100px;
+    vertical-align: middle;
+   
+}
+
+.line{
+    line-height: 80px;
+}
+
+.sec-two{
+    /* height: 600px; */
+    background-color: #e7631c;
+}
+.sectwo-text{
+    text-align: center;
+}
+.sectwo-text p{
+    padding: 0 0 30px 0;
+    font-size: 20px;
+    color: aliceblue;
+    width: 50%;
+    margin: 0 auto;
+}
+.sectwo-text h2{
+    padding: 30px 0;
+    font-size: 50px;
+    color: antiquewhite;
+}
+
+
+.col-30{
+    width: 30%;
+}
+
+.col-30 h3{
+    font-size: 25px; 
+    text-align: center;
+    color: aliceblue;
+}
+.col-30 p{
+    font-size: 15px;
+    text-align: center;
+    color: aliceblue;
+} 
+.col-30 img{
+    width: 100%;
+}
+
+.bg-color{
+    background-color: #303030;
+}
+.sen-3{
+    padding: 50px 0;
+}
+.bg-color{
+    background-color: #1d1d1b;
+}
+
+.sen-3-text {
+    text-align: center;
+    color: #fff;
+}
+.sen-3-text h3{
+    font-size: 40px;
+}
+.sen-3-text p{
+    padding: 30px 0;
+}
+
+.se-3-img-text{
+    text-align: center;
+    background-color: #e8631c;
+    padding: 20px 0;
+}
+.se-3-img-text  img{
+    width: 50%;
+    padding: 30px 0;
+}
+.se-3-img-text p{
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 70%;
+}
+.se-3-img-text button{
+    padding: 8px 50px;
+    background-color: #1d1d1b;
+    color: #fff;
+    border: none;
+}
+
+.sen-4{
+    background-color: #e8631c;
+}
+.img-1 img{
+    width: 100%;
+    display: block;
+}
+.text-2{
+    width: 68%;
+    margin: 0 auto;
+}
+.text-2 h2{
+    font-size: 50px;
+    color: #fff;
+}
+.text-2 p{
+    padding: 30px 0;
+    font-size: 30px;
+    color: #fff;
+}
+
+.text-2 button{
+    padding: 10px 50px;
+    background-color: #1d1d1b;
+    color: #fff;
+    border: none;
+}
+
+.text-6{
+    text-align: center;
+    color: #fff;
+    padding: 60px 0;
+    font-size: 30px;
+}
+
+.text-6 h5{
+    font-size: 60px
+}
+.text-6 p{
+    font-size: 35px
+}
+
+.sec-five{
+    background-color: #303030;
+    /* margin: 20px 0 0 0; */
+    /* width: 60%; */
+}
+.sec-5text{
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+.sec-five h2{
+    /* margin: 50px 0 20px 0 ; */
+    padding: 80px 0 30px 0;
+        text-align: center;
+    font-size: 50px;
+    color: #fff;
+
+}
+.sec-five p{
+    padding: 30px 0 30px 0;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    /* padding: 25px 250px; */
+}
+
+.text-6{
+    text-align: center;
+
+}
+.text-6 h3{
+    font-size:60px ;
+}
+.text-6 p{
+    font-size: 30px;
+}
+/* ------sec-6------ */
+.sec-6{
+    background-image: url(./webphotos/color\ photo.png);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-7{
+    /* padding: 200px; */
+    /* display: flex; */
+    /* margin: 200px 0; */
+    align-items: center;
+   justify-content: center;
+}
+.sec-text{
+    align-items: center;
+    margin: 100px 0;
+    color: #fff;
+    padding: 150px;
+    font-size: 50px;
+}
+.sec-text p{
+    /* margin:  50px 0; */
+    padding: 100px 0 0 0;
+}
+.sec-text h3{
+        margin: 60px 0  ;
+        padding: 60px;
+} 
