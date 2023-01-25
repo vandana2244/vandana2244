@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: #232323;
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify{
+    justify-content: space-between;
+}
+.align{
+    align-items: center;
+}
+.contact_us button:hover{
+    background-color: darkorange;
+    color: aliceblue;
+}
+.header_text ul li{
+    display: inline-block;
+    padding: 0 20px ;
+}
+ul li a:hover{
+    padding: 6px 5px;
+    background-color: black;
+    color: aliceblue;
+    
+    border:3px solid;
+    border-radius: 10px;
+}
+/* a:active{
+    color:black;
+} */
+.contact_us button {
+    padding: 8px 40px;
+    margin: 20px 0;
+}
+.col-50{
+    width: 50%;
+}
+
+.col-50 img{
+    width:100%;
+}
+.sec-txt h1{
+    font-size: 80px;
+}
+.sec-txt{
+    width: 70%;
+}
+.sec-txt p{
+    
+    
+    font-size: 15px;
+}
+.sec-txt input{
+    background-color: #232323;
+    color: aliceblue;
+    padding: 8px 40px;
+    margin: 30px 0;
+    border: none;
+    border-radius: 5px;
+    
+}
+.sec-txt input:hover{
+    background-color: darkorange;
+    color:white;
+    
+}
+
+/* .sec-2{} */
+
+.sec-2{
+    margin: 80px auto;
+    background-color: #232323;
+}
+.sec2-txt{
+    padding: 30px 20px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.sec2-txt h2{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 69px;
+    color: aliceblue;
+}
+.sec2-txt p{
+    text-align: center;
+    color:aliceblue;
+    font-size: 15px;
+}
+.btn{
+    text-align: center;
+}
+.btn input:hover{
+    background-color: darkorange;
+    color: aliceblue;
+}
+.sec2-txt input{
+    background-color: #232323;
+    color: aliceblue;
+    font-weight: 300px;
+    padding: 8px 40px;
+    margin:30px 0;
+    border-color: aliceblue ;
+    border-radius: 6px;
+}
+
+/* .sec-3{} */
+
+.col-30{
+    width: 30%;
+}
+
+.col-30 img{
+    margin: 80px 0 50px 0;
+}
+
+.name h3{
+    margin: 0 0 50px 0;
+    padding: 0 10px 0px 5px;
+    /* text-align: center; */
+    font-size: 50px;
+}
+.name p{
+    /* text-align: center; */
+    /* margin: 0 10px 50px 0; */
+       padding: 0 10px 50px 5px;
+}
+
+
+/* .sec-4{} */
+
+.icon{
+    /* padding: 80px 30px; */
+    margin: 0 auto;
+    width: 50%;
+}
+.sec-4txt{
+    width: 50%;
+    margin: 0 auto;
+}
+.icon img{
+    padding: 150px 90PX 30PX 90PX;
+}
+.sec-4txt h3{
+    font-size:70px ;
+}
+.sec-4txt p{
+    font-weight: bold;
+    padding: 30px 0 80px 0;
+    font-size: 20px;
+}
+/* .sec-5{} */
+
+.sec-5img1{
+    width: 80%;
+    /* padding: 80px 0; */
+}
+
+.sec-5img2{
+    width: 60%;
+    /* padding: 80px 30px; */
+}
+.pa{
+    padding: 80px 0;
+}
+.sec-5txt1 h5{
+    padding: 50px 0;
+    font-size: 40px;
+}
+.sec-5txt2 p{
+    padding: 60px 0px 10px 20px;
+    font-size: 17px;
+}
+.sec-5txt3 p{
+    padding: 20px 20px;
+    font-size: 17px;
+}
+.sec-5icon{
+   margin-left: auto;
+   padding-right: 30px;
+}
+
+/* .sec-6{} */
+
+.sec-6i{
+    padding: 80px 50px;
+}
+.sec-6{
+    background-color: #232323;
+    width: 100%;
+}
+
+.sec-6txt1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    padding:0px 0 80px 0;
+
+}
+
+.sec-6txt2 h3{
+    margin: 0 70px;    
+    /* text-align: center; */
+    color: aliceblue;
+    font-size:20px ;
+    padding:0 0 10px 0;
+}
+.sec-6txt2 p{    
+    margin: 0 70px;    
+    /* text-align: center; */
+    color: aliceblue;
+    padding:0 0 30px 0;
+    width: 60%;
+    /* font-size: 10px; */
+    /* text-align: center; */
+}
+.sec-6txt3 h3{
+    margin: 0 70px;    
+    /* text-align: center; */
+    font-size: 20px;
+    color: aliceblue;
+    padding:0 0 10px 0;
+
+}
+.sec-6txt3 p{
+    /* text-align: center; */
+    width: 60%;
+    margin: 0 70px;    
+    /* font-size: 15px;
+    white-space: pre-line; */
+    color: aliceblue;
+    padding:0 0 30px 0;
+}
+
+
+.sec-6img{
+    padding: 80px 0 0 70px;
+}
+/* .sec-7{} */
+.col-70{
+    width: 70%;
+}
+.col-70 h6{
+    padding: 80px 0 80px 0;
+    font-size: 90px;
+    text-align: center;
+}
+.sec-7 hr{
+    width: 0 150px;
+    margin: 0 90px;
+    border: solid 1px;
+}
+.col-70 p{
+    text-align: center;
+    padding: 20px 80px ;
+}
+.col-70 i{
+    padding: 0 0 0 100px;
+}
+.col-30{
+    width: 30%;
+}
+
+/* .sec-8{} */
+.sec-8txt1{
+    padding: 80px 0;
+    font-size: 70px;
+    text-align: center;
+}
+
+.col-30{
+    width: 30%;
+}
+
+.border{
+    border: 2px  solid;
+
+}
+
+
+
+.col-30 i{
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    font-size: 90px;
+    padding: 70px 80px;
+}
+.col-30 h6{
+    padding: 40px 60px;
+    font-size: 30px;
+    text-align: center;
+}
+.sec-8txt2 p{
+    padding: 0px 50px 60px 50px;
+    /* font-size: 10px;  */
+    text-align: center;
+}
+
+
+/* .sec-9{} */
+
+.col-50 h6{
+    padding: 90px 0 10px 80px;
+    font-size: 65px;
+}
+.sec-9txt1{
+    padding: 20px 20px 0px 88px;
+    border: 3px;
+}
+.sec-9i{
+    padding: 80px 0;
+}
+.sec-9txt2{
+    padding: 0px 0 0px 88px;
+    border: 3px;
+}
+.sec-9txt3{
+    padding: 0px 0 0px 88px;
+    border: 3px;
+}
+.sec-9txt4{
+    padding: 0px 50px 0px 78px;
+    margin: 0 0 0 8px;
+    border: 6px;
+}
+.sec-9txt5{
+    padding: 0px 80px 0px 7px;
+    
+}
+.sec-9txt1 input{
+    display: block;
+    margin:  0px 0 10px 0;
+    padding: 5px 150px 5px 10px ;
+}
+.sec-9txt2 input{
+    display: block;
+    margin: 0px 0 10px 0;
+    padding: 5px 150px 5px 10px ;
+}
+.sec-9txt3 input{
+    display: block;
+    margin: 0px 0 10px 0;
+    padding: 5px 150px 5px 10px ;
+}
+.sec-9txt4 textarea{
+    display: block;
+    margin: 0px 0 10px 0;
+    padding: 10px 0 0 10px ;
+}
+
+
+button{
+    background-color: #232323;
+    color: aliceblue;
+    padding: 12px 133px;
+    border-radius: 5px;
+    margin: 0 80px;
+    border: none;
+}
+.sec-9txt5 button:hover{
+    background-color: darkorange;
+    color: aliceblue;
+}
+
+.sec-9img{
+    padding: 80px 0;
+    width: 100%;
+}
+.Sec-10 
+{
+    background-color: #c4c4c4;;
+}
+.Col20
+{
+    width: 20%;
+   
+}
+.Sec-10 h2
+{
+    padding: 80px 30px;  
+      font-size: 40px;
+}
+.toppad
+{
+    padding: 90px 30px;
+}
+
+
+.Sec-10 p
+{
+   padding: 5px 0;
+}
+.BottomP
+{
+    text-align: center;
+    padding: 0 0 80px 0;
+}
