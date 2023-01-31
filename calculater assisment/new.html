@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Age Calculator</title>
+
+    <!--Bootstrap attachment-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+    
+
+    <!-- Latest compiled JavaScript -->
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        html
+
+{
+
+    height: 100%;
+
+}
+
+body
+
+{
+
+    background: linear-gradient(#b409d9, #FE7800);
+
+    margin-left:0px;
+
+}
+
+select
+
+{
+
+    font-size: 18px;
+
+    border-radius: 5px;
+
+    width: 80px;
+
+}
+
+.head
+
+{
+
+    margin-left: 0px;
+
+    margin-right: 0px;
+
+}
+
+.btn
+
+{
+
+    width: 100px;
+
+}
+
+#submit
+
+{
+
+    margin-left: 20px;
+
+}
+
+label, h3, h4
+
+{
+
+    color: #ece9ec;
+
+}
+
+.show_label
+
+{
+
+    font-size: 18px;
+
+    margin-left: 10px;
+
+}
+
+.panel {
+
+        margin-top: 20px;
+
+        background: none;
+
+    }
+
+.panel-heading{
+
+    background: linear-gradient(#b409d9, #FE7800);
+
+   text-align:center;
+
+}
+    </style>
+  </head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-4">
+
+                
+
+            </div>
+
+            <div class="col-md-4" id="block">
+
+                
+
+                    <form method="post" >
+
+                    	<div class="panel panel-default">
+
+                            <div class="panel-heading"><h3>AGE CALCULATOR</h3></div><br>
+
+                            <div class="panel-body">
+
+                            <h4>Today's Date</h4>
+
+                                <label class="head">Date</label>
+
+                                <label class="head">Month</label>
+
+                                <label class="head">Year</label><br>
+
+                                <select id="cd" class="">
+
+                                    
+
+                                    <script>
+
+                                        var today = new Date();
+
+                                        var dd = today.getDate();
+
+                                        document.write("<option>"+dd+"</option>");
+
+                                        for(i=1;i<=31;i++)
+
+                                        {
+
+                                            document.write("<option>"+i+"</option>");
+
+                                        }
+
+                                    </script>
+
+                                </select>
+
+                                <select id="cm">
+
+                                        
+
+                                        <script>
+
+                                            var today = new Date();
+
+                                            var mm = today.getMonth()+1;
+
+                                            document.write("<option>"+mm+"</option>");
+
+                                            for(i=1;i<=12;i++)
+
+                                            {
+
+                                                document.write("<option>"+i+"</option>");
+
+                                            }
+
+                                        </script>
+
+                                </select>
+
+                                <select id="cy">
+
+                                        <script>
+
+                                            var today = new Date();
+
+                                            var yy = today.getFullYear();
+
+                                            document.write("<option>"+yy+"</option>");
+
+                                            for(i=2018;i>=1940;i--)
+
+                                            {
+
+                                                document.write("<option>"+i+"</option>");
+
+                                            }
+
+                                        </script>
+
+                                </select><br><br>
+
+                            
+
+                            <h4>Select Your DOB</h4>
+
+                                
+
+                            
+
+                            <select id="yd">
+
+                                <option>
+
+                                    Date
+
+                                </option>
+
+                                <script>
+
+                                    for(i=1;i<=31;i++)
+
+                                    {
+
+                                        document.write("<option>"+i+"</option>");
+
+                                    }
+
+                                </script>
+
+                            </select>
+
+                            <select id="ym">
+
+                                    <option>
+
+                                        Month
+
+                                    </option>
+
+                                    <script>
+
+                                        for(i=1;i<=12;i++)
+
+                                        {
+
+                                            document.write("<option>"+i+"</option>");
+
+                                        }
+
+                                    </script>
+
+                            </select>
+
+                            <select id="yy">
+
+                                    <option>
+
+                                        Year
+
+                                    </option>
+
+                                    <script>
+
+                                        for(i=2050;i>=1800;i--)
+
+                                        {
+
+                                            document.write("<option>"+i+"</option>");
+
+                                        }
+
+                                    </script>
+
+                            </select><br><br>
+
+                            
+
+                            <input type="button" id="submit" onclick="return fun();" value="Calcaulate" class="btn btn-success" style="background-color:#00C6FF; font-weight:bolder;" >
+
+                            <input type="reset" value="Clear" onclick="clr();" class="btn btn-danger" style="background-color:#00C6FF; font-weight:bolder;">
+
+                            
+
+                            <br>
+
+                            <br>
+
+                        <h4>Your age</h4>
+
+                                
+
+                            
+
+                            <label class="show_label" id="disp_year"></label>
+
+                            <label class="show_label" id="disp_month"></label>
+
+                            <label class="show_label" id="disp_days"></label>
+
+                        </div>
+
+                    </div>
+
+                    </form>
+
+                    
+
+                
+
+            </div>
+
+            <div class="col-md-4">
+
+                
+
+            </div>
+
+        </div>
+
+    </div>
+
+   
+
+          <a style="text-decoration:none" href="https://codingtaggers.blogspot.com/">
+
+         <div style=" color:white; background: linear-gradient(#FF00A1, #b409d9); text-align:center;">
+
+         <h5>Made with &hearts; by Coding Taggers</h5>
+
+          <h6>Click here to visit website</h6></div></a>
+
+          <script>
+            function fun()
+
+{
+
+    // get current date detail
+
+    var c_date=parseInt(document.getElementById("cd").value);
+
+    var c_month=parseInt(document.getElementById("cm").value);
+
+    var c_year=parseInt(document.getElementById("cy").value);
+
+  
+
+    // get DOB
+
+    var d_date=parseInt(document.getElementById("yd").value);
+
+    var d_month=parseInt(document.getElementById("ym").value);
+
+    var d_year=parseInt(document.getElementById("yy").value);
+
+    var disp_year=document.getElementById("disp_year");
+
+    var disp_month=document.getElementById("disp_month");
+
+    var disp_days=document.getElementById("disp_days");
+
+    var dd_date=document.getElementById("yd").value;
+
+    var dd_month=document.getElementById("ym").value;
+
+    var dd_year=document.getElementById("yy").value;
+
+    if(dd_date=="Date" || dd_month=="Month" || dd_year=="Year")
+
+    {
+
+        alert("Please select your DOB");
+
+        return false;
+
+    }
+
+   // alert(c_date+d_date);
+
+    // program logic
+
+      // condition if dob date is > current date
+
+        if(d_date>c_date)
+
+        {
+
+            if(d_month==1 ||d_month==3 || d_month==5 || d_month==7 || d_month==8 || d_month==10 || d_month==12)
+
+            {
+
+                 c_date=c_date+31;
+
+            }
+
+            if(d_month==4 ||d_month==6 || d_month==9 || d_month==11 )
+
+            {
+
+                 c_date=c_date+30;
+
+            }
+
+            if(d_month==2)
+
+            {
+
+                if(d_year%4==0)
+
+                {
+
+                    c_date=c_date+29;
+
+                }
+
+                else
+
+                {
+
+                    c_date=c_date+28;
+
+                }
+
+            }
+
+             y_date=c_date-d_date;
+
+             c_month=c_month-1;
+
+        }
+
+        // if dob date is !> current date
+
+        else
+
+        {
+
+            y_date=c_date-d_date;
+
+        }
+
+        if(d_month>c_month)
+
+        {
+
+            c_month=c_month+12;
+
+            y_month=c_month-d_month;
+
+            c_year=c_year-1;
+
+        }
+
+        else
+
+        {
+
+            y_month=c_month-d_month;
+
+        }
+
+        y_year=c_year-d_year;
+
+        if(y_year<0 || y_month<0 || y_date<0 )
+
+        {
+
+              alert("current date should be \n greater then or equal to your dob");
+
+              return false;
+
+        }
+
+        else
+
+        {
+
+        disp_year.innerHTML=y_year+" Year";
+
+        disp_month.innerHTML=y_month+"  Month";
+
+        disp_days.innerHTML=y_date+"  Days";
+
+        }
+
+}
+
+function clr()
+
+{
+
+   // alert("ok");
+
+    var disp_year=document.getElementById("disp_year");
+
+    var disp_month=document.getElementById("disp_month");
+
+    var disp_days=document.getElementById("disp_days");
+
+    disp_year.innerHTML="";
+
+    disp_month.innerHTML="";
+
+    disp_days.innerHTML="";
+
+}
+          </script>
+  </body>
+
+</html>
+  
